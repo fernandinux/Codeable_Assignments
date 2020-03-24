@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Ready to get started?</h1>
+      <h2>Prepare to join one of the top lawyer communities</h2>
+      <form action="" method="post">
+        <label for="first_name">First Name</label> <br />
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          required
+        /><br /><br />
+        <label for="last_name">Last Name</label> <br />
+        <input
+          type="text"
+          name="last_name"
+          id="last_name"
+          required
+        /><br /><br />
+        <label for="email">Email</label> <br />
+        <input type="email" name="email" id="email" required /><br /><br />
+        <label for="zip_code">Zip Code </label> <br />
+        <input
+          type="text"
+          name="zip_code"
+          id="zip_code"
+          maxlength="6"
+          placeholder="123456"
+          required
+        /><br /><br />
+        <label for="password">Password</label> <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+        /><br /><br />
+        <label for="practicing_status">Practicing Status</label> <br />
+        <select name="practicing_status" id="practicing_status" required>
+          <option value="0">Practicing Lawyer</option>
+          <option value="1">Non Practicing Lawyer</option>
+          <option value="2">Retired Lawyer</option> </select
+        ><br /><br />
+        <label for="legal_expertise">Area of legal expertise</label> <br />
+        <select multiple name="legal_expertise" id="legal_expertise">
+          <option value="Antitrust">Antitrust</option>
+          <option value="Civil Rights">Civil Rights</option>
+          <option value="Immigration">Immigration</option>
+          <option value="Memes">Memes</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Pretending to work">Pretending to work</option>
+          <option value="Other" selected>Other</option> </select
+        ><br /><br />
+        <label for="years_of_experience">Years of experience</label> <br />
+        <input
+          type="number"
+          name="years_of_experience"
+          id="years_of_experience"
+          min="0"
+          max="60"
+          required
+        /><br /><br />
+        <label for="languages">Languages</label> <br />
+        <input
+          type="checkbox"
+          name="languages"
+          value="es"
+          id="languages"
+        />Spanish
+        <input
+          type="checkbox"
+          name="languages"
+          value="en"
+          id="languages"
+        />English
+        <input
+          type="checkbox"
+          name="languages"
+          value="do"
+          id="languages"
+        />Dothraki
+        <input
+          type="checkbox"
+          name="languages"
+          value="ky"
+          id="languages"
+        />Kryptonese
+        <input
+          type="checkbox"
+          name="languages"
+          value="kl"
+          id="languages"
+        />Klingon
+        <input
+          type="checkbox"
+          name="languages"
+          value="vu"
+          id="languages"
+        />Vulcan
+        <input
+          type="checkbox"
+          name="languages"
+          value="ali"
+          id="languages"
+        />Alienese
+        <input
+          type="checkbox"
+          name="languages"
+          value="el"
+          id="languages"
+        />Elvish<br /><br />
+        <label for="phone_number">Cell Phone Number</label> <br />
+        <input
+          type="tel"
+          name="phone_number"
+          id="phone_number"
+          maxlength="9"
+          placeholder="#######"
+        /><br /><br />
+        <label for="ethnicity">Ethnicity</label><br />
+        <input
+          type="radio"
+          name="ethnicity"
+          value="Earthling"
+          id="ethnicity"
+          required
+        />Earthling
+        <input
+          type="radio"
+          name="ethnicity"
+          value="Martian"
+          id="ethnicity"
+        />Martian
+        <input
+          type="radio"
+          name="ethnicity"
+          value="Asgardian"
+          id="ethnicity"
+        />Asgardian <br /><br />
+
+        <input type="checkbox" name="terms_of_use" id="terms_of_use" required />
+        <label for="terms_of_use"
+          >I swear that I totally read the terms of use</label
+        >
+        <br /><br />
+        <input type="submit" name="submit" value="Send the form" />
+      </form>
+    </div>
+  </body>
+</html>
