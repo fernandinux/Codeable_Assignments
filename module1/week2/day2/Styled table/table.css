@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass&display=swap");
+body {
+  font-family: "Overpass";
+  width: 1440px;
+  height: 863px;
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #1c1c1c;
+}
+td {
+  height: 80px;
+  align-content: center;
+  text-align: right;
+}
+td:first-child {
+  text-align: left;
+  width: 24px;
+  padding-right: 34px;
+}
+td:nth-child(2) {
+  text-align: left;
+  width: 336px;
+  padding-right: 18px;
+}
+td:nth-child(3) {
+  width: 200px;
+  padding-right: 18px;
+}
+td:nth-child(4) {
+  width: 200px;
+  padding-right: 18px;
+}
+td:nth-child(5) {
+  width: 200px;
+  padding-right: 50px;
+}
+tfoot tr {
+  border-bottom: 1px solid #ffffff;
+}
+thead {
+  border-bottom: 2px solid #000;
+}
+.container {
+  width: 1140;
+  height: 80;
+  margin-top: 160px;
+  margin: 150px;
+}
