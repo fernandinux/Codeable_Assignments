@@ -1,0 +1,10 @@
+body {
+  width: 1440px;
+  height: 1026px;
+  background: #fafafa;
+}
+.content {
+  display: grid;
+
+  grid-template: 90px 50% 50% 290px / 250px 1fr 1fr 1fr 253px;
+}
