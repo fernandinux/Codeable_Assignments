@@ -1,0 +1,27 @@
+body {
+  background: white;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.spinner {
+  animation-name: spinner;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(9, start);
+}
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
